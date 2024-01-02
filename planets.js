@@ -1,9 +1,9 @@
 export let planets = []
 
 let sun = {
-  mass: 4000000,
+  mass: 10000000,
   planetRadius: 100,
-  imgRadius: 100,
+  imgRadius: 80,
   x: window.innerWidth / 2 - 50,
   y: window.innerHeight / 2 - 50,
   vx: 0,
@@ -19,7 +19,7 @@ planets.push(sun)
 let mercury = {
   mass: 0.3,
   planetRadius: 24,
-  imgRadius: 24,
+  imgRadius: 12,
   x: window.innerWidth / 2 - 150,
   y: window.innerHeight / 2 - 50,
   vx: 1,
@@ -34,7 +34,7 @@ planets.push(mercury)
 let venus = {
   mass: 4.8,
   planetRadius: 60,
-  imgRadius: 60,
+  imgRadius: 30,
   x: window.innerWidth / 2 - 250,
   y: window.innerHeight / 2,
   vx: 1,
@@ -49,7 +49,7 @@ planets.push(venus)
 let earth = {
   mass: 5.9,
   planetRadius: 64,
-  imgRadius: 64,
+  imgRadius: 32,
   x: window.innerWidth / 2 - 250,
   y: window.innerHeight / 2 - 200,
   vx: 2,
@@ -64,7 +64,7 @@ planets.push(earth)
 let mars = {
   mass: 0.7,
   planetRadius: 34,
-  imgRadius: 34,
+  imgRadius: 17,
   x: window.innerWidth / 2 - 200,
   y: window.innerHeight / 2 - 150,
   vx: 1,
@@ -79,7 +79,7 @@ planets.push(mars)
 let jupiter = {
   mass: 1900,
   planetRadius: 69.9,
-  imgRadius: 70*1.5,
+  imgRadius: 70*1.5/2,
   x: window.innerWidth / 2 - 400,
   y: window.innerHeight / 2 - 150,
   vx: 2,
@@ -94,7 +94,7 @@ planets.push(jupiter)
 let saturn = {
   mass: 568,
   planetRadius: 58.2,
-  imgRadius: 58*4,
+  imgRadius: 58*2,
   x: window.innerWidth / 2 - 450,
   y: window.innerHeight / 2 + 150,
   vx: 2,
@@ -109,7 +109,7 @@ planets.push(saturn)
 let uranus = {
   mass: 87,
   planetRadius: 25.4,
-  imgRadius: 25*6,
+  imgRadius: 25*3,
   x: window.innerWidth / 2 - 500,
   y: window.innerHeight / 2 - 200,
   vx: 3,
@@ -124,7 +124,7 @@ planets.push(uranus)
 let neptune = {
   mass: 102,
   planetRadius: 24.6,
-  imgRadius: 24*6,
+  imgRadius: 24*3,
   x: window.innerWidth / 2 - 550,
   y: window.innerHeight / 2 + 200,
   vx: 2,
