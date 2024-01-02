@@ -1,7 +1,7 @@
 export let planets = []
 
 let sun = {
-  mass: 10000000,
+  mass: 8000000,
   planetRadius: 100,
   imgRadius: 80,
   x: window.innerWidth / 2 - 50,
