@@ -1,3 +1,17 @@
+body {
+  background-image: url("img/skySrtarsBG.jpg");
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
 img {
   position: absolute;
+}
+
+#sunImg {
+  position: absolute;
+  filter: drop-shadow(0px 0px 20px #ff0000) drop-shadow(0px 0px 20px #ff4400) drop-shadow(0px 0px 20px #ffff00); 
 }
