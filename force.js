@@ -25,11 +25,6 @@ export function force(planetOne) {
 
   if (planetOneCenterX > sunCenterX || planetOne.imgRadius >= 0) {
     planetOne.imgRadius += (sunCenterX - planetOneCenterX) / 250
-   // if (distanceY >= distanceX && sunCenterY > planetOneCenterY) {
-   //   planetOne.imgRadius -= (sunCenterY - planetOneCenterY) / 250 
-   // } else {
-   //   planetOne.imgRadius += (planetOneCenterY - sunCenterY) / 250 
-   // }
   } else {
     planetOne.imgRadius -= (planetOneCenterX - sunCenterX) / 250
   }
