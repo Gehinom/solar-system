@@ -1,6 +1,7 @@
 body {
   overflow: hidden;
-  background-image: url("img/skySrtarsBG.jpg");
+  background-image: url("img/BarredSpiralGalaxyNGC1300.jpg");
+  background-size: cover;
 }
 
 h1 {

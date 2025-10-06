@@ -23,10 +23,16 @@ export function force(planetOne) {
     }
   });
 
-  if (planetOneCenterX > sunCenterX || planetOne.imgRadius >= 0) {
-    planetOne.imgRadius += (sunCenterX - planetOneCenterX) / 250
+  if (planetOneCenterX > sunCenterX) {
+    planetOne.imgRadius += (sunCenterX - planetOneCenterX) / 200
   } else {
-    planetOne.imgRadius -= (planetOneCenterX - sunCenterX) / 250
+    planetOne.imgRadius -= (planetOneCenterX - sunCenterX) / 200
   }
+
+  /*if (planetOneCenterY > sunCenterY) {
+    planetOne.imgRadius += (planetOneCenterY - sunCenterY) / 200
+  } else {
+    planetOne.imgRadius -= (sunCenterY - planetOneCenterY) / 200
+  }*/
 }
 
